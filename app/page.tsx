@@ -26,7 +26,7 @@ const phases = [
     title: "Where It All Started From Vaani School",
     subtitle: "11th Standard - First Chapter",
     year: "2019",
-    imageSrc: "/gallery/1.jpg",
+    imageSrc: "/public/gallery/1.jpg",
     imageAlt: "School memories",
     paragraphs: [
       "It all began in a classroom filled with chalk dust and nervous laughter.",
