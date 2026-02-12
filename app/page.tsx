@@ -42,7 +42,7 @@ const phases = [
     title: "Growing Together",
     subtitle: "College & Crazy Memories",
     year: "2021",
-    imageSrc: "/gallery/4.jpg",
+    imageSrc: "/gallery/4.JPG",
     imageAlt: "College memories",
     paragraphs: [
       "College brought new adventures, new challenges, and a love that only grew deeper.",
@@ -107,7 +107,7 @@ const phases = [
     title: "Still Choosing You",
     subtitle: "Our Present & Future",
     year: "2026",
-    imageSrc: "/gallery/6.jpg",
+    imageSrc: "/gallery/6.JPG",
     imageAlt: "Present & future",
     paragraphs: [
       "Years later, my heart still skips a beat for you.",
