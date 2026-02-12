@@ -42,7 +42,7 @@ const phases = [
     title: "Growing Together",
     subtitle: "College & Crazy Memories",
     year: "2021",
-    imageSrc: "/gallery/4.JPG",
+    imageSrc: "/images/4.JPG",
     imageAlt: "College memories",
     paragraphs: [
       "College brought new adventures, new challenges, and a love that only grew deeper.",
@@ -57,7 +57,7 @@ const phases = [
     title: "Stronger Than Ever",
     subtitle: "Side by Side",
     year: "2023",
-    imageSrc: "/gallery/23.JPG",
+    imageSrc: "/images/23.JPG",
     imageAlt: "Work phase",
     paragraphs: [
       "The real world hit, but we faced everything — together.",
@@ -74,7 +74,7 @@ const phases = [
     title: "Still Us",
     subtitle: "Through Everything",
     year: "Always",
-    imageSrc: "/gallery/40.JPG", // change if needed
+    imageSrc: "/images/40.JPG", // change if needed
     imageAlt: "Still together",
     paragraphs: [
       "Time changed, life changed, but one thing never did — us.",
@@ -91,7 +91,7 @@ const phases = [
     title: "Our Memories",
     subtitle: "Captured Moments",
     year: "∞",
-    imageSrc: "/gallery/97.JPG",
+    imageSrc: "/images/97.JPG",
     imageAlt: "Gallery memories",
     paragraphs: [
       "Every picture holds a piece of our story.",
@@ -107,7 +107,7 @@ const phases = [
     title: "Still Choosing You",
     subtitle: "Our Present & Future",
     year: "2026",
-    imageSrc: "/gallery/6.JPG",
+    imageSrc: "/images/6.JPG",
     imageAlt: "Present & future",
     paragraphs: [
       "Years later, my heart still skips a beat for you.",
