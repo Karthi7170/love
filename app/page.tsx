@@ -17,7 +17,7 @@ const MusicToggle = dynamic(
 // ✅ CORRECT generator for 99 photos named 1.jpg → 99.jpg
 const galleryPhotos = Array.from(
   { length: 99 },
-  (_, i) => `/images/${i + 1}.jpg`
+  (_, i) => `/images/${i + 1}.JPG`
 )
 
 const phases = [
@@ -57,7 +57,7 @@ const phases = [
     title: "Stronger Than Ever",
     subtitle: "Side by Side",
     year: "2023",
-    imageSrc: "/gallery/23.jpg",
+    imageSrc: "/gallery/23.JPG",
     imageAlt: "Work phase",
     paragraphs: [
       "The real world hit, but we faced everything — together.",
@@ -74,7 +74,7 @@ const phases = [
     title: "Still Us",
     subtitle: "Through Everything",
     year: "Always",
-    imageSrc: "/gallery/40.jpg", // change if needed
+    imageSrc: "/gallery/40.JPG", // change if needed
     imageAlt: "Still together",
     paragraphs: [
       "Time changed, life changed, but one thing never did — us.",
@@ -91,7 +91,7 @@ const phases = [
     title: "Our Memories",
     subtitle: "Captured Moments",
     year: "∞",
-    imageSrc: "/gallery/97.jpg",
+    imageSrc: "/gallery/97.JPG",
     imageAlt: "Gallery memories",
     paragraphs: [
       "Every picture holds a piece of our story.",
