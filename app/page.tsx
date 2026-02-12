@@ -23,7 +23,7 @@ const galleryPhotos = Array.from(
 const phases = [
   {
     id: "school",
-    title: "Where It All Started",
+    title: "Where It All Started From Vaani School",
     subtitle: "11th Standard - First Chapter",
     year: "2019",
     imageSrc: "/gallery/1.jpg",
