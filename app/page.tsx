@@ -42,7 +42,7 @@ const phases = [
     title: "Growing Together",
     subtitle: "College & Crazy Memories",
     year: "2021",
-    imageSrc: "/images/4.JPG",
+    imageSrc: "/images/6.JPG",
     imageAlt: "College memories",
     paragraphs: [
       "College brought new adventures, new challenges, and a love that only grew deeper.",
