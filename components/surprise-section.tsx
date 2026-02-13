@@ -64,7 +64,7 @@ export function SurpriseSection() {
               playsInline
               className="h-full w-full object-cover"
             >
-              <source src="/images/video.mp4" type="video1/mp4" />
+              <source src="/images/video1.mp4" type="video/mp4" />
             </video>
           </div>
 
