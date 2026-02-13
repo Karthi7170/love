@@ -14,11 +14,15 @@ const MusicToggle = dynamic(
   { ssr: false }
 )
 
-// ✅ CORRECT generator for 99 photos named 1.jpg → 99.jpg
-const galleryPhotos = Array.from(
-  { length: 90 },
-  (_, i) => `/images/${i + 1}.JPG`
-)
+
+// ✅ Hide specific photos
+const hiddenImages = new Set([2, 4, 60, 85, 86])
+
+// ✅ Gallery generator with hidden images removed
+const galleryPhotos = Array.from({ length: 90 }, (_, i) => i + 1)
+  .filter((num) => !hiddenImages.has(num))
+  .map((num) => `/images/${num}.JPG`)
+
 
 const phases = [
   {
@@ -28,7 +32,6 @@ const phases = [
     year: "2019",
     imageSrc: "/images/1.JPG",
     imageAlt: "School memories",
-
     paragraphs: [
       "It all began in a classroom filled with chalk dust and nervous laughter.",
       "Among all the faces, there was only one that made time slow down.",
@@ -67,14 +70,12 @@ const phases = [
       "We became each other's home.",
     ],
   },
-
-  // ✅ STILL SECTION
   {
     id: "still",
     title: "Still Us",
     subtitle: "Through Everything",
     year: "Always",
-    imageSrc: "/images/40.JPG", // change if needed
+    imageSrc: "/images/40.JPG",
     imageAlt: "Still together",
     paragraphs: [
       "Time changed, life changed, but one thing never did — us.",
@@ -84,8 +85,6 @@ const phases = [
       "Some things are simply meant to last.",
     ],
   },
-
-  // ✅ GALLERY SECTION
   {
     id: "gallery",
     title: "Our Memories",
@@ -101,7 +100,6 @@ const phases = [
       "Our journey, frame by frame.",
     ],
   },
-
   {
     id: "present",
     title: "Still Choosing You",
@@ -144,7 +142,6 @@ export default function Page() {
     sectionRefs.current[tab]?.scrollIntoView({ behavior: "smooth" })
   }
 
-  // ✅ Scroll detection
   useEffect(() => {
     if (!showTimeline) return
 
@@ -180,7 +177,7 @@ export default function Page() {
 
       {showTimeline && (
         <div className="mx-auto max-w-screen-xl px-6 py-16 md:py-24">
-  <div className="flex flex-col gap-24 md:gap-32">
+          <div className="flex flex-col gap-24 md:gap-32">
 
             {phases.map((phase, index) => (
               <div
@@ -190,7 +187,6 @@ export default function Page() {
               >
                 <PhaseSection {...phase} isReversed={index % 2 !== 0} />
 
-                {/* ✅ Only gallery renders PhotoGallery */}
                 {phase.id === "gallery" && (
                   <div className="mt-10">
                     <PhotoGallery photos={galleryPhotos} />
@@ -205,6 +201,7 @@ export default function Page() {
             >
               <SurpriseSection />
             </div>
+
           </div>
         </div>
       )}
@@ -213,7 +210,7 @@ export default function Page() {
         <p className="font-serif text-sm text-muted-foreground">
           Made with all my love, just for you Only you d Mukki.
         </p>
-        <p className="mt-2 text-2xl text-primary">{"♥"}</p>
+        <p className="mt-2 text-2xl text-primary">♥</p>
       </footer>
     </main>
   )
