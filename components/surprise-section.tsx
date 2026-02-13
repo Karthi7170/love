@@ -119,13 +119,13 @@ export function SurpriseSection() {
               </p>
 
               <p className="font-sans text-xl font-bold text-primary md:text-2xl">
-                I love you, today and forever.
+                I love you, today and forever Bonda Mukkii ♥ ♥ ♥.
               </p>
 
               <div className="mt-4 flex flex-col items-center gap-2">
                 <span className="text-3xl text-primary">♥ ♥ ♥</span>
                 <p className="font-serif text-sm italic text-muted-foreground">
-                  — With all my heart
+                  — With all my heart(Unnavan ♥)
                 </p>
               </div>
             </div>

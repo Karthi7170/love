@@ -211,7 +211,7 @@ export default function Page() {
 
       <footer className="border-t border-border bg-card/50 py-12 text-center">
         <p className="font-serif text-sm text-muted-foreground">
-          Made with all my love, just for you.
+          Made with all my love, just for you Only you d Mukki.
         </p>
         <p className="mt-2 text-2xl text-primary">{"♥"}</p>
       </footer>
