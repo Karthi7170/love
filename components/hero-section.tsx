@@ -28,9 +28,12 @@ export function HeroSection({ onStart }: HeroSectionProps) {
         </div>
 
         <h1 className="animate-fade-in-up font-sans text-4xl font-bold leading-tight tracking-tight text-foreground md:text-6xl lg:text-7xl">
-          <span className="text-balance">Our Love Story</span>
-          <span className="text-balance">(Happy Valentines Day Bonda Mukki♥♥♥)</span>
-        </h1>
+  <span className="text-balance">Our Love Story</span>
+  <span className="block text-balance">
+    (Happy Valentines Day Bonda Mukki ♥♥♥)
+  </span>
+</h1>
+
 
         <p className="animate-fade-in-up opacity-0 delay-300 font-serif text-lg leading-relaxed text-muted-foreground md:max-w-xl md:text-xl">
           From a classroom in 11th standard to forever...
