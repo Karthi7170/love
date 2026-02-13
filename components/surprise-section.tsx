@@ -55,18 +55,15 @@ export function SurpriseSection() {
       ) : (
         <div className="animate-fade-in flex flex-col items-center gap-8 py-8">
           
-          {/* Video Section */}
-          <div className="relative aspect-[4/3] w-full max-w-lg overflow-hidden rounded-2xl shadow-xl">
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="h-full w-full object-cover"
-            >
-              <source src="/images/video1.mp4" type="video/mp4" />
-            </video>
-          </div>
+          <video
+  autoPlay
+  loop
+  playsInline
+  className="h-full w-full object-cover"
+>
+  <source src="/images/video1.mp4" type="video/mp4" />
+</video>
+
 
           {/* Message Card */}
           <div className="max-w-2xl rounded-2xl border border-border bg-card/80 p-8 shadow-lg backdrop-blur-sm md:p-12">
