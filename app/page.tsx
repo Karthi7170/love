@@ -91,7 +91,7 @@ const phases = [
     title: "Our Memories",
     subtitle: "Captured Moments",
     year: "∞",
-    imageSrc: "/images/97.JPG",
+    imageSrc: "/images/53.JPG",
     imageAlt: "Gallery memories",
     paragraphs: [
       "Every picture holds a piece of our story.",
