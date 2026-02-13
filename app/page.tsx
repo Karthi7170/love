@@ -16,7 +16,7 @@ const MusicToggle = dynamic(
 
 // ✅ CORRECT generator for 99 photos named 1.jpg → 99.jpg
 const galleryPhotos = Array.from(
-  { length: 99 },
+  { length: 90 },
   (_, i) => `/images/${i + 1}.JPG`
 )
 
